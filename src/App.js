@@ -1,10 +1,10 @@
-
+import Signup from './Components/Signup/Signup';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-<h1>Saudis in Audis</h1>
+      <Signup />
     </div>
   );
 }
