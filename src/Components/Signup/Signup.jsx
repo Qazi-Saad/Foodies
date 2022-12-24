@@ -8,9 +8,8 @@ const Signup = () => {
       <Logo />
 
       <div className="signup-form">
-
         <h1 id="main-heading">
-          <span id="first-letter">S</span>ign up
+          <span>S</span>ign up
         </h1>
 
         <p id="first-para">
@@ -18,7 +17,9 @@ const Signup = () => {
         </p>
 
         <div className="input">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" id="email-label">
+            Email
+          </label>
           <input type="text" className="input-field" id="email" />
         </div>
 
@@ -33,8 +34,6 @@ const Signup = () => {
           <label htmlFor="passw">Password</label>
           <input type="text" className="input-field" id="passw" />
         </div>
-
-
       </div>
     </div>
   );
